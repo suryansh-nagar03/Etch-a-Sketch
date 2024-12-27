@@ -3,7 +3,14 @@
     background-color: lightgrey;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .workspace{
+    align-items: center;    
     margin: 10px 300px 50px 300px;
     border-radius: 14px;
     background-color: #808080;
