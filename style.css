@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    background-color: lightgrey;
+}
+
+.workspace{
+    margin: 10px 300px 50px 300px;
+    border-radius: 14px;
+    background-color: #808080;
+    width: 675px;
+    height:500px;
+}
+
+.header{
+    border-radius: 14px;
+    text-align: center;
+    padding: 5px 10px 15px 10px;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #808080;
+    text-align: center;
+}
+#header-title{
+    background-color: #808080;
+    font-size: 42px;
+    text-shadow: 5px 5px 3px #000;
+}
+#header-text{
+    background-color: #808080;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.options{
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+button{
+    font-size: 16px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+.grid{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 10px 188px 10px 187px;
+    height:300px;
+    width: 300px;
+    background-color: white;
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+.cell{
+    background-color: white;
+    user-select: none;
+}
+
+.grid div{
+    background-color: white;
+}

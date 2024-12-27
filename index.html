@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png"> 
+</head>
+<body>
+    <div class="workspace">
+        <div class="header">    
+            <div id="header-title">Etch-a-sketch</div>
+            <div id="header-text">Explore the artist within!!</div>
+        </div>
+        <div class="options">
+            <button id="draw">Draw</button>
+            <button id="erase">Erase</button>
+        </div>
+        <div class="grid"></div>
+        <div class="options">
+            <button id="adjust-pixels">Adjust-Pixels</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="copyright-text">
+            Copyright © Suryansh Nagar <span id="current-year"></span>
+            <script>
+                document.getElementById("current-year").textContent = new Date().getFullYear();
+            </script>
+        </div>
+    </div>
+    <script src="sketch.js" async></script>
+</body>
+</html>
