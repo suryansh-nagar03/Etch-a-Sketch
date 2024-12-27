@@ -5,13 +5,14 @@
 
 body{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .workspace{
     align-items: center;    
-    margin: 10px 300px 50px 300px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     border-radius: 14px;
     background-color: #808080;
     width: 675px;
